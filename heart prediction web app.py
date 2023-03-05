@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 
 #loading the saved model
-loaded_model = pickle.load(open('C:\\Users\\agnis\\Desktop\\Workspace\\DEV\\MACHINE LEARNING PROJECTS\\DISEASE DETECTION MODELS\\Heart Disease Prediction\\heart_app\\trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:\\Users\\agnis\\Desktop\\Workspace\\DEV\\MACHINE LEARNING PROJECTS\\DISEASE DETECTION MODELS\\Heart Disease Prediction\\trained_model.sav', 'rb'))
 
 
 # creating a function for model
